@@ -4,7 +4,6 @@ class Rectangle {
 	this._width=width;
 	this._height=height;
 	}
-
 get width(){
 return this._width;	
 }
@@ -19,7 +18,7 @@ constructor(side){
 	super(side,side);
 }
 	getPerimeter() {
-    return this.width * 4;
+    return this._width * 4;
   }
 }
 
