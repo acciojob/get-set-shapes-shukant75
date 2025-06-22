@@ -16,13 +16,13 @@ get area(){
 }
 class Square extends Animal {
 constructor(side){
-	super(side,side)
+	super(side,side);
 }
 	getPerimeter() {
     return this.width * 4;
   }
 }
-}
+
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
