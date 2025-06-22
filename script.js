@@ -16,7 +16,6 @@ get area(){
 }
 class Square extends Rectangle {
 constructor(side){
-	this.square=Square
 	super(side,side);
 }
 	getPerimeter() {
