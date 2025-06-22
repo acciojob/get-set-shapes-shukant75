@@ -12,14 +12,14 @@ get height(){
 	return this._height;
 }
 get area(){
-	return this._width*this._height
+	return this._width*this._height;
 }
 class Square extends Animal {
 constructor(side){
 	super(side,side);
 }
 	getPerimeter() {
-    return this.width * 4;
+    return this.side * 4;
   }
 }
 
