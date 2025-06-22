@@ -14,7 +14,7 @@ get height(){
 get area(){
 	return this._width*this._height;
 }
-class Square extends Animal {
+class Square extends Rectangle {
 constructor(side){
 	this.square=Square
 	super(side,side);
